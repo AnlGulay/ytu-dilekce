@@ -50,10 +50,12 @@
                                 <input id="ogretim-yili" type="text" placeholder="Ogretim Yili" class="peer mt-2 placeholder-transparent w-full  md:text-lg text-base outline-0 px-2">
                                 <label for="ogretim-yili" class="absolute text-textColor left-1 top-0 text-xs peer-placeholder-shown:left-3 peer-placeholder-shown:top-3 peer-placeholder-shown:text-lg peer-placeholder-shown:text-placeholder peer-focus:left-1 peer-focus:top-0 peer-focus:text-xs peer-focus:text-textColor transition-all duration-200" for="ogretim-yili">Öğretim Yılı</label>
                             </div>
-                            <div class="donem relative border-underlineColor bg-white w-full rounded-t-lg h-12  flex border-b-2 items-center">
-                                <input id="donem" type="text" placeholder="Donem" class="w-full peer md:text-lg text-base outline-0 px-2 mt-2 placeholder-transparent
-                                ">
-                                <label for="donem" class="absolute text-textColor left-1 top-0 text-xs peer-placeholder-shown:left-3 peer-placeholder-shown:top-3 peer-placeholder-shown:text-lg peer-placeholder-shown:text-placeholder peer-focus:left-1 peer-focus:top-0 peer-focus:text-xs peer-focus:text-textColor transition-all duration-200" >Dönem</label>
+                            <div class="donem relative border-underlineColor bg-white w-full rounded-t-lg h-12 flex border-b-2 items-center">
+                                <select id="donem" class="w-full peer md:text-lg text-base outline-0 px-2 mt-2 bg-white text-placeholder">
+                                    <option value="" disabled selected hidden>Dönem</option>
+                                    <option value="Güz">Güz</option>
+                                    <option value="Bahar">Bahar</option>
+                                </select>
                             </div>
                         </div>
                         <p class="text-textColor text-xs">*Lütfen daha önce almış olduğunuz ders ile ilgili eğitim öğretim yılı ve dönem bilgilerini giriniz</p>
